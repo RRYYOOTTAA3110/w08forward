@@ -9,4 +9,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>validator</display-name>
+    <servlet-name>validator</servlet-name>
+    <servlet-class>jp.webschool.javaweb.chapter08.validator</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>validator</servlet-name>
+    <url-pattern>/validator</url-pattern>
+  </servlet-mapping>
 </web-app>
